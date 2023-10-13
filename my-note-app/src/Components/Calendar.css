@@ -1,0 +1,82 @@
+
+.disabled {
+    color: gray;
+    pointer-events: none;
+}
+
+.note-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: orchid;
+}
+
+.calendar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calendar-days{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    gap:20px;
+}
+.calendar{
+    padding:20px;
+}
+.calendar-day{
+    background-color: orchid;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.calendar-day.selected {
+    background-color: rebeccapurple;
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.noteform{
+    height: fit-content;
+    padding:20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: violet;
+    color: white;
+}
+
+.notes{
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: violet;
+    color: white;
+
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+
+}
+
+button{
+    border:none;
+    border-radius: 10px;
+    padding:7px 20px;
+    background-color:blueviolet;
+    color: white;
+
+}
