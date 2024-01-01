@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+    margin: auto;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+    gap:20px;
+    padding:20px;
+}
+
+#mainbox{
+    
+    padding:20px;
+    background: linear-gradient(180deg, orange,white, green);
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+
+}
