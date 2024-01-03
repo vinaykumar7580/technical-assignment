@@ -18,7 +18,7 @@ function Counter1(){
 
     return(
         <div>
-            <h1>Simple Counter</h1>
+            <h2>Simple Counter</h2>
             <h3>Count: {count}</h3>
             <button disabled={count>=20} onClick={handleIncrease}>Increase</button>
             <button disabled={count<1} onClick={handleDecrease}>Decrease</button>

@@ -55,7 +55,7 @@ function Todo(){
 
     return(
         <div>
-            <h1>Todo Crud Operation</h1>
+            <h2>Todo Crud Operation</h2>
 
             <form onSubmit={handleSubmit}>
                 <label>Name</label>

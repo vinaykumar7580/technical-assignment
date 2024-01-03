@@ -27,7 +27,7 @@ function Counter2() {
 
   return (
     <div>
-      <h1>Counter with hook</h1>
+      <h2>Counter with hook</h2>
       <h3>Count: {count}</h3>
       <button onClick={handleStart}>Start</button>
       <button onClick={handleStop}>Stop</button>
