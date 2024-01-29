@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud-app-javascript</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>crud-app-javascript</h2>
+
+    <div>
+        <form id="myForm" onsubmit="handleSubmit(event)">
+            <label>Name</label>
+            <input type="text" placeholder="enter name" id="name" required>
+            <br>
+            <br>
+            <label>Email</label>
+            <input type="email" placeholder="enter email" id="email" required>
+            <br>
+            <br>
+            <label>Age</label>
+            <input type="number" placeholder="enter age" id="age" required>
+            <br>
+            <br>
+            <label>address</label>
+            <input type="text" placeholder="enter address" id="address" required>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+<script src="index.js"></script>
