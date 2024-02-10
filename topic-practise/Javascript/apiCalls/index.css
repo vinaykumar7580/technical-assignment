@@ -1,0 +1,19 @@
+
+body{
+    text-align: center;
+    margin:auto;
+    padding:20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    align-items: center;
+    gap:20px;
+}
+
+#product{
+    border:1px solid black;
+    padding:10px;
+    height: 170px;
+}
