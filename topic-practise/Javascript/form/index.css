@@ -1,0 +1,34 @@
+
+
+#formBox{
+    width:30%;
+    margin:auto;
+    border:1px solid black;
+    padding:10px;
+}
+
+#mainBox{
+    width:60%;
+    text-align: center;
+    margin:auto;
+    border:1px solid black;
+    padding:10px;
+    margin-top: 30px;
+}
+
+label{
+    display: block;
+    margin-top:10px;
+}
+
+input{
+    width: 96%;
+    padding: 5px;
+}
+
+button{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    padding:5px 20px;
+}
