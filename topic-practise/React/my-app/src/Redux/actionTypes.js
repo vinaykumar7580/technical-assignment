@@ -1,0 +1,6 @@
+
+
+export const SEND_FORM_DATA="SEND_FORM_DATA"
+export const GET_FORM_DATA="GET_FORM_DATA"
+export const EDIT_FORM_DATA="EDIT_FORM_DATA"
+export const DELETE_FORM_DATA="DELETE_FORM_DATA"
